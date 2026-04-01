@@ -169,7 +169,7 @@ MIT — use it, fork it, adapt it, build your own Olympus.
 
 Built by [Josh Galt III](https://x.com/joshgalt) and **[Anabasis Intelligence](https://anabasisintelligence.com)** — we help traditional businesses and entrepreneurs operationalize AI workforces. If you want us to deploy this on paperclip for your company instead of doing it yourself, [get in touch](https://anabasisintelligence.com).
 
-**Also available in Spanish** for the Latin American market. (Coming soon — or [contact us](https://anabasisintelligence.com) if you want it now.)
+**[Versión en español](https://github.com/JG003/paperclip-pantheon-es)**
 
 ---
 
