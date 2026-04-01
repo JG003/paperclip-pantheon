@@ -2,7 +2,7 @@
 
 **A complete AI workforce framework for running a company with 21 specialized agents, a 5-member strategic council, and a CEO — all named from Greek mythology because the names encode the jobs.**
 
-Built by [Josh Galt](https://x.com/joshgalt) and [Anabasis Intelligence](https://anabasisintelligence.com) — a creative AI implementation firm helping businesses operationalize AI workforces.
+Built by [Josh Galt III](https://x.com/joshgalt) and [Anabasis Intelligence](https://anabasisintelligence.com) — a creative AI implementation firm helping businesses operationalize AI workforces.
 
 [Paperclip Pantheon](banner.png)
 
@@ -165,7 +165,7 @@ MIT — use it, fork it, adapt it, build your own Olympus.
 
 ## About
 
-Built by [Josh Galt](https://x.com/joshgalt) and **[Anabasis Intelligence](https://anabasisintelligence.com)** — we help traditional businesses and entrepreneurs operationalize AI workforces. If you want us to deploy this for your company instead of doing it yourself, [get in touch](https://anabasisintelligence.com).
+Built by [Josh Galt III](https://x.com/joshgalt) and **[Anabasis Intelligence](https://anabasisintelligence.com)** — we help traditional businesses and entrepreneurs operationalize AI workforces. If you want us to deploy this for your company instead of doing it yourself, [get in touch](https://anabasisintelligence.com).
 
 **Also available in Spanish** for the Latin American market. (Coming soon — or [contact us](https://anabasisintelligence.com) if you want it now.)
 
