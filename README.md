@@ -6,7 +6,7 @@ Built by [Josh Galt III](https://x.com/joshgalt) and [Anabasis Intelligence](htt
 
 **[Versión en español](https://github.com/JG003/paperclip-pantheon-es)**
 
-![Paperclip Pantheon](banner.png)
+![Paperclip Pantheon](banner-paperclip-pantheon2.png)
 
 ---
 
