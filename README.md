@@ -2,7 +2,9 @@
 
 **A complete AI workforce framework for running a company with 21 specialized agents, a 5-member strategic council, and a CEO — all named from Greek mythology because the names encode the jobs.**
 
-Built by [Josh Galt III](https://x.com/joshgalt) and [Anabasis Intelligence](https://anabasisintelligence.com), a creative AI implementation firm helping SMBs operationalize AI workforces.
+Built by [Josh Galt III](https://x.com/joshgalt) and [Anabasis Intelligence](https://anabasisintelligence.com), a creative AI implementation firm helping SMBs operationalize AI workforces. 
+
+**[Versión en español](https://github.com/JG003/paperclip-pantheon-es)**
 
 ![Paperclip Pantheon](banner.png)
 
