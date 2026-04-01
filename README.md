@@ -4,7 +4,7 @@
 
 Built by [Josh Galt III](https://x.com/joshgalt) and [Anabasis Intelligence](https://anabasisintelligence.com) — a creative AI implementation firm helping businesses operationalize AI workforces.
 
-[Paperclip Pantheon](banner.png)
+![Paperclip Pantheon](banner.png)
 
 ---
 
