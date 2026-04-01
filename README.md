@@ -2,7 +2,7 @@
 
 **A complete AI workforce framework for running a company with 21 specialized agents, a 5-member strategic council, and a CEO — all named from Greek mythology because the names encode the jobs.**
 
-Built by Josh Galt at [Anabasis Intelligence](https://anabasisintelligence.com) — a creative AI implementation firm helping businesses operationalize AI workforces.
+Built by [Josh Galt](https://x.com/joshgalt) and [Anabasis Intelligence](https://anabasisintelligence.com) — a creative AI implementation firm helping businesses operationalize AI workforces.
 
 <!-- Add your banner image: ![Paperclip Pantheon](banner.png) -->
 
@@ -138,7 +138,8 @@ A solo founder might run 7 agents. A product company with physical goods might r
 
 ## Inspired By
 
-- [Andrej Karpathy](https://x.com/karpathy) — LLM Council methodology and the idea that multiple AI perspectives produce better decisions than a single model
+- [Dotta](https://x.com/dotta) - creator of Paperclip, Open-source orchestration for zero-human companies
+- [Andrej Karpathy](https://x.com/karpathy) — LLM Council methodology, openresearch, and the idea that multiple AI perspectives produce better decisions than a single model
 - [Gary Tan](https://x.com/garrytan) — gstack engineering workflow that powers the Build & Ship division
 - [Anthropic's Claude](https://claude.ai) — the model powering the agents
 - Greek mythology — for encoding organizational logic into memorable, intuitive names since approximately 800 BC
@@ -148,6 +149,7 @@ A solo founder might run 7 agents. A product company with physical goods might r
 ## Built With
 
 This system is designed for use with:
+- **[Paperclip](https://paperclip.ing)** by [Dotta](https://x.com/dotta)
 - **[Claude](https://claude.ai)** by Anthropic (Opus 4.6 / Sonnet 4.6) as the underlying model
 - **[Cowork](https://claude.ai)** by Anthropic for agent management
 - **[Claude Code](https://docs.claude.com)** for engineering agents (Daedalus, Hephaestus)
@@ -163,7 +165,7 @@ MIT — use it, fork it, adapt it, build your own Olympus.
 
 ## About
 
-Built by **[Anabasis Intelligence](https://anabasisintelligence.com)** — we help traditional businesses and entrepreneurs operationalize AI workforces. If you want us to deploy this for your company instead of doing it yourself, [get in touch](https://anabasisintelligence.com).
+Built by [Josh Galt](https://x.com/joshgalt) and **[Anabasis Intelligence](https://anabasisintelligence.com)** — we help traditional businesses and entrepreneurs operationalize AI workforces. If you want us to deploy this for your company instead of doing it yourself, [get in touch](https://anabasisintelligence.com).
 
 **Also available in Spanish** for the Latin American market. (Coming soon — or [contact us](https://anabasisintelligence.com) if you want it now.)
 
