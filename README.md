@@ -10,7 +10,7 @@ Built by [Josh Galt](https://x.com/joshgalt) and [Anabasis Intelligence](https:/
 
 ## What This Is
 
-An open-source, production-ready template system for deploying a full AI agent workforce to run a company. Not a concept deck. Not a blog post. The actual files you hand to your AI CEO, who then builds out the entire team.
+An open-source, production-ready template system for deploying a full AI agent workforce to run a company, tuned for use in [Paperclip](https://paperclip.ing). These are the actual files you hand to your AI CEO along with your company-specific md files, and your CEO then builds out the entire team according to this structure.
 
 **The system includes:**
 
@@ -26,11 +26,11 @@ Every agent is named from Greek mythology using **nominative determinism** — t
 
 ## Why Greek Mythology
 
-This isn't decoration. It's a mnemonic architecture.
+This isn't mere decoration, it's a mnemonic architecture.
 
 A new team member (human or AI) hearing "Athena is working on the research brief" immediately has a mental model of what Athena does and how she thinks — before reading a single line of her configuration. The mythology provides instant intuition about each agent's personality, priorities, and approach.
 
-The family relationships encode organizational dependencies: Mnemosyne (memory) is the mother of Calliope (content) and Erato (creative direction) — because all creative output depends on institutional memory. Apollo (sales) is the father of Asclepius (support) — because every promise sales makes becomes support's responsibility.
+The family relationships encode organizational dependencies: Mnemosyne (memory) is the mother of Calliope (content) and Erato (creative direction) — because all creative output depends on institutional memory. Apollo (sales) is the father of Asclepius (support) — because every promise sales makes becomes support's responsibility. Etc.
 
 ---
 
