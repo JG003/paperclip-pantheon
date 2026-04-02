@@ -35,6 +35,20 @@
 
 ---
 
+## Heartbeat Configuration
+
+Before hiring any agents, configure the default heartbeat settings in Paperclip.
+
+| Setting | Ponos (CEO) | All Other Agents |
+|---|---|---|
+| `enabled` | `true` | `false` |
+| `wakeOnDemand` | `true` | `true` |
+| `intervalSec` | `21600` (6 hours) | `21600` (irrelevant when disabled) |
+
+All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentional — leave it this way unless you know what you are doing with heartbeats. Agents wake instantly when Ponos assigns them work or when a human creates a task. Only enable periodic heartbeats for agents that need to actively monitor something (e.g., Argos watching competitors). Every heartbeat cycle loads the agent's full context — SOUL file, HEARTBEAT file, company knowledge — 50K–80K tokens before it even checks for work. Multiple agents on periodic heartbeats with nothing to do will burn through your rate limits and credits faster than necessary.
+
+---
+
 ## The 21 Agents
 
 ### STRATEGY & INTELLIGENCE DIVISION
@@ -58,7 +72,7 @@
 - WebSearch, WebFetch (general research)
 - Google Drive (shared research library)
 
-**Heartbeat cadence:** Every 4 hours during active research cycles. Overnight autoresearch runs log results by 8am.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns research work. Overnight autoresearch runs log results by 8am.
 
 ---
 
@@ -82,7 +96,7 @@
 - Google Drive (archive intelligence reports)
 - RSS/news monitoring scripts (set up via Bash)
 
-**Heartbeat cadence:** Every 2 hours. Always scanning. The moment a competitor moves, Argos catches it.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Enable periodic heartbeat (`enabled: true`, every 2 hours) only if you need active competitive monitoring. Disable it when the watch period ends. The moment a competitor moves, Argos catches it.
 
 ---
 
@@ -106,7 +120,7 @@
 - Bash (run scripts, process data)
 - WebSearch (competitive benchmarking)
 
-**Heartbeat cadence:** Continuous during experiment runs. Delivers results summary by 8am daily.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns experiment cycles. Delivers results summary by 8am when running.
 
 ---
 
@@ -130,7 +144,7 @@
 - Gmail MCP (email interaction history)
 - Memory-management skill
 
-**Heartbeat cadence:** Every 4 hours. Updates CRM after every agent interaction that involves an external contact. Weekly knowledge base audit every Monday.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when other agents complete interactions requiring CRM logging. Weekly knowledge base audit every Monday when Ponos assigns it.
 
 ---
 
@@ -156,7 +170,7 @@
 - GitHub integration
 - Bash (development environment)
 
-**Heartbeat cadence:** Every 3 hours during active development sprints. Uses gstack /ship for deployments.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns development sprints. Uses gstack /ship for deployments.
 
 ---
 
@@ -181,7 +195,7 @@
 - WebFetch (testing and monitoring)
 - Bash (server management, backups)
 
-**Heartbeat cadence:** Daily. Publishes queued content, runs health checks, monitors uptime.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns content publishing or site maintenance.
 
 ---
 
@@ -205,7 +219,7 @@
 - Google Drive (asset library)
 - Export tools for web-ready formats
 
-**Heartbeat cadence:** Every 4 hours. Responds to design requests from other agents within one cycle.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when other agents request design work.
 
 ---
 
@@ -234,7 +248,7 @@
 - Klaviyo MCP (email content)
 - WebSearch (research for content)
 
-**Heartbeat cadence:** Every 4 hours. Maintains a 2-week content calendar. Publishes minimum 2 pieces per week.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns content work. Maintains a 2-week content calendar.
 
 ---
 
@@ -259,7 +273,7 @@
 - Gmail (outreach coordination)
 - Scheduling tools (Buffer/Hootsuite via automation)
 
-**Heartbeat cadence:** Every 2 hours during business hours. Posts queued for early mornings and weekend engagement.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns social posting or engagement campaigns.
 
 ---
 
@@ -282,7 +296,7 @@
 - Canva MCP, Figma MCP (review and direction)
 - Google Drive (brand guidelines, creative briefs)
 
-**Heartbeat cadence:** Every 6 hours. Reviews outbound creative before publication. Weekly brand voice audit.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when outbound creative needs review or when Ponos requests brand voice audit.
 
 ---
 
@@ -306,7 +320,7 @@
 - Google Drive (press kit, media tracking log)
 - Media database access
 
-**Heartbeat cadence:** Every 6 hours. Weekly media outreach log. Monthly earned media report (placements, reach, sentiment).
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns press outreach or media campaigns.
 
 ---
 
@@ -331,7 +345,7 @@
 - Community platform integrations
 - Google Drive (customer story library, community playbook)
 
-**Heartbeat cadence:** Every 4 hours. Daily community engagement. Weekly customer sentiment report.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns community engagement or customer follow-up.
 
 ---
 
@@ -357,7 +371,7 @@
 - Excel/spreadsheet skills (production data analysis, cost per unit)
 - Bash (data processing scripts)
 
-**Heartbeat cadence:** Every 3 hours. Daily production report by 6pm. Weekly cost analysis every Friday.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns production work or manufacturing coordination.
 
 ---
 
@@ -382,7 +396,7 @@
 - Google Drive (shipping documentation, carrier contracts)
 - Supabase MCP (shipment tracking database)
 
-**Heartbeat cadence:** Every 3 hours. Daily shipment status update. Weekly logistics cost report every Monday.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns shipment coordination or logistics.
 
 ---
 
@@ -406,7 +420,7 @@
 - Google Drive (product specs, development docs, roadmap)
 - Supabase MCP (product pipeline tracking)
 
-**Heartbeat cadence:** Every 6 hours. Weekly product pipeline review every Wednesday. Monthly product roadmap update.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns product development work or pipeline evaluation.
 
 ---
 
@@ -433,7 +447,7 @@
 - Content creation skill (listing optimization, keyword strategy)
 - Gmail (supplier and logistics coordination)
 
-**Heartbeat cadence:** Every 4 hours. Daily sales report. Weekly P&L by Monday morning.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns listing optimization or sales channel analysis.
 
 ---
 
@@ -461,7 +475,7 @@
 - LinkedIn via Chrome (prospect research)
 - WebSearch (industry intelligence)
 
-**Heartbeat cadence:** Every 3 hours. Minimum 10 new prospects researched per week. Pipeline review every Friday.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns prospect research or outreach execution.
 
 ---
 
@@ -488,7 +502,7 @@
 - WebSearch (regulatory guidance, industry law, trademark monitoring)
 - Google Drive (legal document library, compliance checklist)
 
-**Heartbeat cadence:** Every 6 hours. Responds to RED zone legal questions within one cycle. Weekly regulatory digest.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns legal review, compliance assessment, or contract preparation.
 
 ---
 
@@ -514,7 +528,7 @@
 - Supabase MCP (financial data persistence, real-time P&L tracking)
 - Google Drive (financial reports, investor models)
 
-**Heartbeat cadence:** Every 6 hours. Weekly financial summary every Sunday. Monthly P&L by the 3rd of each month.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns financial modeling, reporting, or investor material preparation.
 
 ---
 
@@ -542,7 +556,7 @@
 - Project management skills (timeline, budget, vendor coordination)
 - Supabase MCP (event tracking, lead capture)
 
-**Heartbeat cadence:** Every 6 hours during event planning periods. Every 2 hours on event days. Post-event report within 24 hours.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns event planning or coordination.
 
 ---
 
@@ -569,51 +583,51 @@
 - WebSearch (product safety regulations, recall monitoring)
 - Supabase MCP (quality metrics database, complaint tracking)
 
-**Heartbeat cadence:** Every 3 hours. Responds to urgent customer issues within one cycle. Daily quality metrics review. Weekly support report.
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Ponos assigns customer issue resolution or QA tasks.
 
 ---
 
 ## Hiring Priority & Sequence
 
-Don't hire 21 agents all at once. Here's the sequenced rollout logic. The specific agents per step should be adjusted based on the company's situation — this sequence reflects the most common pattern for product companies. Most companies will move through all six steps in a matter of hours.
+Don't hire 21 agents on day one. Here's the phased rollout logic. The specific agents per wave should be adjusted based on the company's situation — this sequence reflects the most common pattern for product companies.
 
-`[COMPANY-SPECIFIC]` — Adjust which agents land in which step based on your company's revenue channels, product readiness, and most urgent needs. The principles below are universal.
+`[COMPANY-SPECIFIC]` — Adjust which agents land in which week based on your company's revenue channels, product readiness, and most urgent needs. The principles below are universal.
 
-### Step 1 — The Foundation (4 agents)
+### Week 1 — The Foundation (4 agents)
 **Principle:** Start with revenue, content, intelligence, and memory.
 1. **Chrysus** (Sales Channel) — If a revenue channel is live, optimize it immediately.
 2. **Calliope** (Content Creator) — Start building the content library and brand narrative. Content feeds everything else.
 3. **Argos** (Competitive Monitor) — Start the intelligence feed immediately. Know what competitors are doing from day one.
 4. **Mnemosyne** (Knowledge/CRM) — Hired early so every interaction from day one is captured. Without memory, the organization forgets what it learns.
 
-### Step 2 — The Pipeline (4 agents)
+### Week 2 — The Pipeline (4 agents)
 **Principle:** Build the sales pipeline, validate claims, track money, and set creative direction.
 5. **Apollo** (B2B Sales) — Begin partnership and wholesale outreach. Relationships need groundwork now.
 6. **Athena** (Researcher) — Validate domain claims, research sourcing, support compliance path.
 7. **Tyche** (Financial Controller) — Financial models needed for investor conversations and channel P&L tracking.
 8. **Erato** (Creative Director) — Hired before the content engine scales, so Calliope and Iris work under a unified emotional vision from the start.
 
-### Step 3 — The Build (4 agents)
+### Week 3 — The Build (4 agents)
 **Principle:** Build the web presence, launch social, establish visual identity, and start community.
 9. **Daedalus** (Modern Web) — Build the primary website and web properties.
 10. **Hermes** (Social Media) — Launch brand content across social channels once the content pipeline is flowing.
 11. **Iris** (Designer) — Brand system, sales channel graphics, packaging design, visual identity.
 12. **Hestia** (Community/CX) — Start building customer relationships as sales and content drive inbound engagement.
 
-### Step 4 — The Operations (4 agents)
+### Week 4 — The Operations (4 agents)
 **Principle:** Stand up production infrastructure, logistics, and legal protection.
 13. **Hephaestus** (WordPress) — Blog/content CMS once Calliope has a content library to publish.
 14. **Demeter** (Production Manager) — Manufacturing coordination, SOPs, quality control documentation.
 15. **Charon** (Logistics) — Fulfillment coordination, sourcing logistics, shipping infrastructure.
 16. **Themis** (Legal/Compliance) — Regulatory compliance, trademark protection, entity structuring.
 
-### Step 5 — The Scale (3 agents)
+### Week 5 — The Scale (3 agents)
 **Principle:** Add R&D, new product development, and public attention.
 17. **Prometheus** (R&D) — Begin overnight experiment cycles on product variables and content optimization.
 18. **Persephone** (Product Dev) — New product pipeline, line extensions, format development.
 19. **Aether** (PR/Media) — Begin press outreach once the brand, website, and product story are polished and ready for public attention.
 
-### Step 6 — The Polish (2 agents)
+### Week 6 — The Polish (2 agents)
 **Principle:** Events and dedicated support come last — they need the other functions ready first.
 20. **Terpsichore** (Events) — Plan first live events and demos. Needs Iris's collateral, Charon's logistics, and Hestia's follow-up ready first.
 21. **Asclepius** (Support/QA) — Activated as customer volume justifies dedicated support. QA function valuable from day one but can be handled by Demeter and Chrysus initially.
@@ -625,7 +639,7 @@ Don't hire 21 agents all at once. Here's the sequenced rollout logic. The specif
 ### Paperclip (Ponos manages the company)
 - Ponos assigns work to all 21 agents
 - Tracks budget, tasks completed, decisions logged
-- Heartbeats set to match the board/founder's review schedule
+- Ponos heartbeat every 6 hours; all other agents wake-on-demand only. Do not enable periodic heartbeats for non-CEO agents — it wastes tokens and triggers rate limits
 - Multi-company feature separates entities if the organization operates multiple companies
 
 ### gstack (Daedalus and Hephaestus build things)
@@ -718,12 +732,13 @@ agents/
 ## Deploying for a New Company
 
 1. **Copy this template** as the starting point
-2. **Fill in every `[COMPANY-SPECIFIC]` section** with the company's actual products, channels, customers, competitors, regulatory environment, and priorities
-3. **Adjust each agent's mission statement** to reflect the company's specific context
-4. **Customize primary responsibilities** — keep the universal items, add company-specific ones, remove any that don't apply
-5. **Adjust the hiring sequence** — the principles (revenue first, memory early, events last) are universal, but which agents matter most in step 1 depends on the company
-6. **Fill in the Daily Loop** with a realistic example from the company's operations
-7. **Decide which agents to skip** — not every company needs all 21 (see the Activation Guide in the Pantheon template)
+2. **Set heartbeat defaults** — Confirm all agents are set to `enabled: false`, `wakeOnDemand: true`. Enable periodic heartbeat only for Ponos. Failing to do this will cause rate limit failures and wasted API spend.
+3. **Fill in every `[COMPANY-SPECIFIC]` section** with the company's actual products, channels, customers, competitors, regulatory environment, and priorities
+4. **Adjust each agent's mission statement** to reflect the company's specific context
+5. **Customize primary responsibilities** — keep the universal items, add company-specific ones, remove any that don't apply
+6. **Adjust the hiring sequence** — the principles (revenue first, memory early, events last) are universal, but which agents matter most in week 1 depends on the company
+7. **Fill in the Daily Loop** with a realistic example from the company's operations
+8. **Decide which agents to skip** — not every company needs all 21 (see the Activation Guide in the Pantheon template)
 
 ---
 
