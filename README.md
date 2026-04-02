@@ -137,7 +137,7 @@ The framework includes an **Activation Guide** with three tiers:
 A solo founder might run 7 agents. A product company with physical goods might run all 21. The Council of 5 is always the same everywhere — thinking styles don't change, only context does.
 
 ---
-##Heartbeat Defaults
+## Heartbeat Defaults
 
 All agents ship with **enabled: false** and **wakeOnDemand: true.** This is intentional — leave it this way unless you know what you are doing with heartbeats. Agents wake instantly when Ponos assigns them work or when a human creates a task.
 
