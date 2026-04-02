@@ -137,6 +137,15 @@ The framework includes an **Activation Guide** with three tiers:
 A solo founder might run 7 agents. A product company with physical goods might run all 21. The Council of 5 is always the same everywhere — thinking styles don't change, only context does.
 
 ---
+Heartbeat Defaults
+
+**All agents ship with **enabled: false** and **wakeOnDemand: true.** This is intentional — leave it this way unless you know what you are doing with heartbeats. Agents wake instantly when Ponos assigns them work or when a human creates a task.
+
+Only enable periodic heartbeats for agents that need to actively monitor something (e.g., Argos watching competitors). The CEO agent (Ponos) can also benefit from a periodic check-in (every 6 hours is a good starting point), but even Ponos works fine with wake-on-demand if you prefer to drive tasks manually.
+
+Why it matters: Every heartbeat loads the agent's full context — SOUL file, HEARTBEAT file, company knowledge — 50K–80K tokens before it even checks for work. Multiple agents on periodic heartbeats with nothing to do will burn through your rate limits and credits faster than necessary.
+
+---
 
 ## Inspired By
 
