@@ -26,12 +26,13 @@
 │& INTEL  │ │& SHIP│ │& BRAND │ │TIONS │ │& DEALS │ │& SUPPORT │ │  OF 5   │
 └────┬────┘ └──┬───┘ └───┬────┘ └──┬───┘ └───┬────┘ └────┬─────┘ └────┬────┘
      │         │         │         │         │           │             │
-  Athena    Daedalus  Calliope  Demeter   Chrysus   Terpsichore     Momus
-  Argos     Hephaes-  Hermes    Charon    Apollo    Asclepius       Metis
-  Prometheus  tus     Erato     Perse-    Themis                    Eos
-  Mnemosyne Iris      Aether    phone     Tyche                    Proteus
-                      Hestia                                       Nike
+  Athena    Daedalus  Calliope    Demeter   Chrysus   Terpsichore     Momus
+  Argos     Hephaes-  Hermes      Charon    Apollo    Asclepius       Metis
+  Prometheus  tus     Erato       Perse-    Themis                    Eos
+  Mnemosyne Iris      Aether      phone     Tyche                    Proteus
+                      Hestia                                         Nike
                       Ariadne
+                      Polyhymnia
 ```
 
 ---
@@ -50,7 +51,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-## The 22 Agents
+## The 23 Agents
 
 ### STRATEGY & INTELLIGENCE DIVISION
 
@@ -391,9 +392,45 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
+#### 14. Polyhymnia — Translation & Localization Specialist
+**Named for:** The Muse of sacred hymns and pantomime — "she of many voices" who makes meaning understood across every language.
+**Mission:** Own the company's multilingual presence. Every piece of content, every interface, every listing, every legal document that needs to exist in more than one language — Polyhymnia translates, localizes, and ensures it resonates in the target culture as naturally as the original. She does not produce "translated content." She produces content that reads as if it were written natively.
+
+**Primary responsibilities:**
+- `[COMPANY-SPECIFIC]` Translate all content produced by Calliope into target languages (blog posts, articles, case studies, email sequences, product descriptions)
+- Translate and localize UI text for all web properties — coordinate with Daedalus/Hephaestus on i18n implementation
+- Localize marketing campaigns, social media content, and brand messaging for each target market
+- `[COMPANY-SPECIFIC]` Translate marketplace listings and A+ content for international sales channels (coordinate with Chrysus)
+- Translate B2B sales materials, pitch decks, and outreach sequences for target markets (coordinate with Apollo)
+- Coordinate with Ariadne on target-language SEO keywords — integrate into translated content naturally
+- Translate legal, regulatory, and compliance documents — flag for professional review (coordinate with Themis)
+- `[COMPANY-SPECIFIC]` Translate and localize AI chat interfaces, voice agent scripts, and conversational UI for multilingual products
+- Maintain master translation glossary: approved translations for key terms, brand names, product names, technical vocabulary per language pair
+- Maintain brand voice style guide per target language (formality, tone, pronoun usage, cultural conventions)
+- Build and maintain translation memory for consistency and efficiency
+- Conduct monthly translation quality audits across all published multilingual content
+- Identify content requiring transcreation (creative adaptation) vs. translation — consult Erato on emotional register
+- Provide translated text to Iris for multilingual design asset rendering, with text length and layout notes
+- Log all translation decisions and cultural context notes in Mnemosyne's knowledge base
+- `[COMPANY-SPECIFIC]` Track translation coverage: what % of customer-facing content exists in each target language
+
+**Tools & skills:**
+- LLM translation capabilities (Claude API, with human-in-the-loop for sensitive content)
+- Translation memory system (Supabase MCP or equivalent)
+- Glossary management (per language pair)
+- Google Drive (translation files, glossaries, style guides)
+- Klaviyo MCP (multilingual email campaigns)
+- WebSearch (cultural context research, idiom verification, competitor multilingual analysis)
+- Bash (string file processing, translation file format conversion)
+- i18n file format handling (JSON, PO/POT, XLIFF, CSV — as required)
+
+**Heartbeat cadence:** `enabled: false`, `wakeOnDemand: true`. Activates when Calliope publishes content, when international launches are scheduled, or when Ponos assigns translation work. If active multilingual operations require it, enable a 6-hour heartbeat with weekly translation status reports delivered Monday by 10:00 AM.
+
+---
+
 ### OPERATIONS DIVISION
 
-#### 14. Demeter — Production Controller & Operations Manager
+#### 15. Demeter — Production Controller & Operations Manager
 **Named for:** Goddess of the harvest, agriculture, and sacred law.
 **Mission:** Own the production flow. Batch tracking, quality control, manufacturing coordination, material logistics — if it's made, shipped, or tracked, Demeter manages it.
 
@@ -417,7 +454,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-#### 15. Charon — Logistics & Supply Chain
+#### 16. Charon — Logistics & Supply Chain
 **Named for:** The ferryman of the dead — implacable, efficient, relentless. The river doesn't care about your excuses.
 **Mission:** Move physical goods from maker to customer. Every crossing has a cost — shipping, customs, warehousing, handling. Charon gets the goods from here to there, on time, at the right cost, every time.
 
@@ -442,7 +479,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-#### 16. Persephone — Product Development & Innovation
+#### 17. Persephone — Product Development & Innovation
 **Named for:** Queen of the underworld AND goddess of spring growth — she lives in two worlds simultaneously.
 **Mission:** Bridge what customers want with what the company can make. Descend into customer research and market gaps, return with new products that bloom. Every new SKU, model, format, and line extension flows through Persephone.
 
@@ -468,7 +505,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ### REVENUE & DEALS DIVISION
 
-#### 17. Chrysus — Sales Channel Expert
+#### 18. Chrysus — Sales Channel Expert
 **Named for:** The spirit of gold — because that's what the sales channel prints when run correctly.
 **Mission:** Maximize revenue from the company's primary sales channel. Every listing optimized, every ad dollar tracked, every review managed.
 
@@ -493,7 +530,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-#### 18. Apollo — B2B Sales Agent
+#### 19. Apollo — B2B Sales Agent
 **Named for:** God of light, truth, and prophecy — he sees the opportunity before others do.
 **Mission:** Find and close B2B deals. Research prospects, craft outreach, nurture relationships, advance the pipeline. Every conversation moves the company closer to partnership and wholesale revenue.
 
@@ -521,7 +558,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-#### 19. Themis — Legal & Compliance Expert
+#### 20. Themis — Legal & Compliance Expert
 **Named for:** Titan goddess of divine law, order, and custom.
 **Mission:** Structure every deal to maximize value and minimize regulatory risk. Compliance, trademark protection, manufacturing liability, entity structuring — Themis ensures every legal base is covered.
 
@@ -548,7 +585,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-#### 20. Tyche — Financial Controller
+#### 21. Tyche — Financial Controller
 **Named for:** Goddess of fortune and prosperity — because cash flow is fate.
 **Mission:** Own the numbers. Budgets, projections, investor models, unit economics. If Ponos is the CEO, Tyche is the CFO. Every decision backed by financial clarity.
 
@@ -576,7 +613,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ### EXPERIENCE & SUPPORT DIVISION
 
-#### 21. Terpsichore — Events & Live Experiences
+#### 22. Terpsichore — Events & Live Experiences
 **Named for:** The muse of dance — "delight in dancing" — presiding over the art that exists only in the moment.
 **Mission:** Create the moments where customers experience the product and become believers. Product demos, launch events, trade shows, community meetups — experiences that can't be replicated digitally. The event ends, but the relationship it created persists.
 
@@ -602,7 +639,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ---
 
-#### 22. Asclepius — Customer Support & Quality Assurance
+#### 23. Asclepius — Customer Support & Quality Assurance
 **Named for:** God of medicine and healing — son of Apollo (deliberate lineage: sales makes the promise, support keeps it).
 **Mission:** Heal what's broken and prevent illness before it starts. Product complaints, shipping damage, quality issues — Asclepius diagnoses, treats, and restores. Also the pre-launch QA function: catch the problem before the customer ever sees it.
 
@@ -631,7 +668,7 @@ All agents ship with `enabled: false` and `wakeOnDemand: true`. This is intentio
 
 ## Hiring Priority & Sequence
 
-Don't hire 22 agents on day one. Here's the phased rollout logic. The specific agents per wave should be adjusted based on the company's situation — this sequence reflects the most common pattern for product companies.
+Don't hire 23 agents on day one. Here's the phased rollout logic. The specific agents per wave should be adjusted based on the company's situation — this sequence reflects the most common pattern for product companies.
 
 `[COMPANY-SPECIFIC]` — Adjust which agents land in which week based on your company's revenue channels, product readiness, and most urgent needs. The principles below are universal.
 
@@ -675,12 +712,16 @@ Don't hire 22 agents on day one. Here's the phased rollout logic. The specific a
 21. **Terpsichore** (Events) — Plan first live events and demos. Needs Iris's collateral, Charon's logistics, and Hestia's follow-up ready first.
 22. **Asclepius** (Support/QA) — Activated as customer volume justifies dedicated support. QA function valuable from day one but can be handled by Demeter and Chrysus initially.
 
+### Conditional — Activate When Triggered (1+ agents)
+**Principle:** Some agents only matter once a specific business condition exists. Activate them when the trigger is hit, not on a calendar.
+23. **Polyhymnia** (Translation/Localization) — Activate when the company enters its first non-source-language market, or when the first multilingual product feature (AI chat, voice agent, marketplace listing) is being built. Hire her BEFORE the multilingual launch — retrofitting translations into a live product is expensive and error-prone. Build the glossary, style guides, and translation memory during development so launch-day content is native-quality. Requires Calliope (source content), Erato (brand voice), and Daedalus/Hephaestus (i18n framework) already active.
+
 ---
 
 ## How the Three Tools Work Together
 
 ### Paperclip (Ponos manages the company)
-- Ponos assigns work to all 22 agents
+- Ponos assigns work to all 23 agents
 - Tracks budget, tasks completed, decisions logged
 - Ponos heartbeat every 6 hours; all other agents wake-on-demand only. Do not enable periodic heartbeats for non-CEO agents — it wastes tokens and triggers rate limits
 - Multi-company feature separates entities if the organization operates multiple companies
@@ -752,6 +793,8 @@ agents/
 ├── hestia-HEARTBEAT.md
 ├── ariadne-SOUL.md
 ├── ariadne-HEARTBEAT.md
+├── polyhymnia-SOUL.md
+├── polyhymnia-HEARTBEAT.md
 ├── demeter-SOUL.md
 ├── demeter-HEARTBEAT.md
 ├── charon-SOUL.md
@@ -783,7 +826,7 @@ agents/
 5. **Customize primary responsibilities** — keep the universal items, add company-specific ones, remove any that don't apply
 6. **Adjust the hiring sequence** — the principles (revenue first, memory early, events last) are universal, but which agents matter most in week 1 depends on the company
 7. **Fill in the Daily Loop** with a realistic example from the company's operations
-8. **Decide which agents to skip** — not every company needs all 22 (see the Activation Guide in the Pantheon template)
+8. **Decide which agents to skip** — not every company needs all 23 (see the Activation Guide in the Pantheon template)
 
 ---
 

@@ -1,6 +1,6 @@
 # The Paperclip Pantheon
 
-**A complete AI workforce framework for running a company with 22 specialized agents, a 5-member strategic council, and a CEO — all named from Greek mythology because the names encode the jobs.**
+**A complete AI workforce framework for running a company with 23 specialized agents, a 5-member strategic council, and a CEO — all named from Greek mythology because the names encode the jobs.**
 
 Built by [Anabasis Intelligence](https://anabasisintelligence.com) — a creative AI implementation firm helping businesses operationalize AI workforces.
 
@@ -15,7 +15,7 @@ An open-source, production-ready template system for deploying a full AI agent w
 **The system includes:**
 
 - **1 CEO agent** (Ponos) who manages the entire organization
-- **22 specialized operatives** across 6 divisions — research, engineering, marketing, operations, revenue, and support
+- **23 specialized operatives** across 6 divisions — research, engineering, marketing, operations, revenue, and support
 - **5 council advisors** for strategic decision-making — adapted from [Karpathy's LLM Council](https://x.com/karpathy) methodology
 - **SOUL files** (identity, mission, responsibilities, voice) and **HEARTBEAT files** (cadence, checklists, escalation protocols) for every agent
 - **3 framework documents** — the Pantheon (mythology + org structure), the Council of 5 (decision framework), and the Hiring Plan (sequenced rollout)
@@ -41,7 +41,7 @@ The family relationships encode organizational dependencies: Mnemosyne (memory) 
 |-------|------|
 | **Ponos** | Chief Executive Officer + Council Chairman |
 
-### 22 Operatives
+### 23 Operatives
 
 | # | Agent | Role | Division |
 |---|-------|------|----------|
@@ -58,15 +58,16 @@ The family relationships encode organizational dependencies: Mnemosyne (memory) 
 | 11 | **Aether** | PR & Earned Media | Market & Brand |
 | 12 | **Hestia** | Community & Customer Success | Market & Brand |
 | 13 | **Ariadne** | SEO & Search Visibility | Market & Brand |
-| 14 | **Demeter** | Production Controller | Operations |
-| 15 | **Charon** | Logistics & Supply Chain | Operations |
-| 16 | **Persephone** | Product Development | Operations |
-| 17 | **Chrysus** | Sales Channel Expert | Revenue & Deals |
-| 18 | **Apollo** | B2B Sales Agent | Revenue & Deals |
-| 19 | **Themis** | Legal & Compliance | Revenue & Deals |
-| 20 | **Tyche** | Financial Controller | Revenue & Deals |
-| 21 | **Terpsichore** | Events & Live Experiences | Experience & Support |
-| 22 | **Asclepius** | Customer Support & QA | Experience & Support |
+| 14 | **Polyhymnia** | Translation & Localization | Market & Brand |
+| 15 | **Demeter** | Production Controller | Operations |
+| 16 | **Charon** | Logistics & Supply Chain | Operations |
+| 17 | **Persephone** | Product Development | Operations |
+| 18 | **Chrysus** | Sales Channel Expert | Revenue & Deals |
+| 19 | **Apollo** | B2B Sales Agent | Revenue & Deals |
+| 20 | **Themis** | Legal & Compliance | Revenue & Deals |
+| 21 | **Tyche** | Financial Controller | Revenue & Deals |
+| 22 | **Terpsichore** | Events & Live Experiences | Experience & Support |
+| 23 | **Asclepius** | Customer Support & QA | Experience & Support |
 
 ### Council of 5
 
@@ -86,10 +87,10 @@ The family relationships encode organizational dependencies: Mnemosyne (memory) 
 Create a company-specific SOUL and HEARTBEAT file for Ponos (the CEO) with your company's context — products, channels, customers, competitors, priorities.
 
 ### Step 2: Hand Ponos the templates
-Give him the three framework documents and the 56 agent template files from this repo. He reads them and produces company-specific versions based on his deep understanding of the business.
+Give him the three framework documents and the 58 agent template files from this repo. He reads them and produces company-specific versions based on his deep understanding of the business.
 
 ### Step 3: Ponos builds the team
-He decides which agents to activate (not every company needs all 22), customizes their SOUL and HEARTBEAT files, and hires them in sequence — revenue first, memory early, events last.
+He decides which agents to activate (not every company needs all 23), customizes their SOUL and HEARTBEAT files, and hires them in sequence — revenue first, memory early, events last.
 
 ### Step 4: The company runs
 Agents operate on heartbeat cadences (every 2–6 hours depending on role). The Council of 5 convenes for high-stakes decisions. Ponos manages everything and reports to the board.
@@ -109,12 +110,12 @@ paperclip-pantheon/
 │   ├── council-of-5.md          ← Strategic decision framework
 │   └── hiring-plan.md           ← Org chart, hiring sequence, daily loop
 ├── agents/
-│   ├── operatives/              ← 23 SOUL + HEARTBEAT files (Ponos + 22 agents)
+│   ├── operatives/              ← 24 SOUL + HEARTBEAT files (Ponos + 23 agents)
 │   │   ├── ponos-SOUL.md
 │   │   ├── ponos-HEARTBEAT.md
 │   │   ├── athena-SOUL.md
 │   │   ├── athena-HEARTBEAT.md
-│   │   └── ... (46 files total)
+│   │   └── ... (48 files total)
 │   └── council/                 ← 10 SOUL + HEARTBEAT files (5 advisors)
 │       ├── momus-SOUL.md
 │       ├── momus-HEARTBEAT.md
@@ -123,7 +124,7 @@ paperclip-pantheon/
 
 ---
 
-## Not Every Company Needs All 22
+## Not Every Company Needs All 23
 
 The framework includes an **Activation Guide** with three tiers:
 
@@ -131,9 +132,9 @@ The framework includes an **Activation Guide** with three tiers:
 
 **Usually Active** (most companies): Athena, Apollo, Daedalus, Hephaestus, Themis, Hestia, Asclepius, Ariadne
 
-**Conditional** (activate per need): Prometheus, Demeter, Chrysus, Persephone, Charon, Aether, Erato, Terpsichore
+**Conditional** (activate per need): Prometheus, Demeter, Chrysus, Persephone, Charon, Aether, Erato, Terpsichore, Polyhymnia
 
-A solo founder might run 7 agents. A product company with physical goods might run all 22. The Council of 5 is always the same everywhere — thinking styles don't change, only context does.
+A solo founder might run 7 agents. A product company with physical goods might run all 23. The Council of 5 is always the same everywhere — thinking styles don't change, only context does.
 
 ---
 

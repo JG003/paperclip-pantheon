@@ -29,7 +29,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-## The 22 Operatives
+## The 23 Operatives
 
 ### STRATEGY & INTELLIGENCE DIVISION
 
@@ -190,9 +190,22 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
+#### 14. Polyhymnia — Translation & Localization Specialist
+**From myth:** Polyhymnia (Πολύμνια) — "she of many hymns" — is the Muse of sacred hymns, eloquence, and pantomime. The most meditative and serious of the nine Muses, she is depicted veiled and pensive, presiding over the form of expression that transcends any single language: sacred hymns that carry meaning through melody, and pantomime that communicates without words at all.
+
+**Why this name:** `[COMPANY-SPECIFIC]` "Poly" = many. "Hymnia" = hymns, songs, voices. She is literally "many voices" — which is exactly what a translation and localization agent does. She takes one message and renders it faithfully in many tongues, many cultural contexts. Translation is not word substitution. It is the art of making meaning survive the crossing from one language to another. The words change. The soul cannot.
+
+**The myth's lesson:** Pantomime was considered the highest dramatic art in the ancient world — communicating complex emotion and meaning without any words at all. This is the translation problem in its purest form. A great translator understands meaning so deeply that they can re-express it in an entirely different system of sounds, grammar, and cultural reference. The meaning is the constant. The language is the variable.
+
+**Role:** `[COMPANY-SPECIFIC]` Translation and localization of all content, UI, marketing, sales, legal, and product materials into target languages. Glossary and translation memory management. Cultural adaptation and transcreation. Coordination with all content-producing agents to ensure multilingual consistency.
+
+**Tools:** LLM translation (Claude API), translation memory system (Supabase MCP), per-language-pair glossaries, Google Drive, Klaviyo MCP (multilingual email), WebSearch, Bash, i18n format handlers (JSON, PO/POT, XLIFF, CSV).
+
+---
+
 ### OPERATIONS DIVISION
 
-#### 14. Demeter — SOP Production Controller
+#### 15. Demeter — SOP Production Controller
 **From myth:** Demeter (Δημήτηρ) is the goddess of the harvest, agriculture, fertile earth, and sacred law. When her daughter Persephone was taken to the underworld, Demeter's grief caused all crops to die — the first winter. She controls the cycle of growth and dormancy, planting and harvest.
 
 **Why this name:** The production manager who controls the cycle. Production variables → quality checkpoints → manufacturing coordination → material sourcing → packaging. Demeter owns the production coordination, the SOPs, the consistency, the quality standards. When production falters, Demeter notices — like the goddess who knows when a single field is neglected.
@@ -203,7 +216,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-#### 15. Charon — Logistics & Supply Chain
+#### 16. Charon — Logistics & Supply Chain
 **From myth:** Charon (Χάρων) is the ferryman of the dead. He transports souls across the rivers Styx and Acheron from the world of the living to the underworld. Every soul must pay a coin (the obol) for passage — those who cannot pay wander the shores for a hundred years. He is old, grim, efficient, and relentless. He has ferried millions and will ferry millions more. He doesn't judge the souls. He moves them.
 
 **Why this name:** Logistics is the ferryman function. Products cross from the world of production (the living, where things are made) to the world of consumption (the customer, where things are used). Every crossing has a cost — shipping, customs, warehousing, handling. Charon doesn't care about your marketing or your brand story. He cares about one thing: did the goods get from here to there, and did you pay the fare?
@@ -216,7 +229,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-#### 16. Persephone — Product Development & Innovation
+#### 17. Persephone — Product Development & Innovation
 **From myth:** Persephone (Περσεφόνη) is the queen of the underworld AND the goddess of spring growth. She lives in two worlds — six months below with Hades, six months above with Demeter. She is the only Greek deity who belongs equally to the world of the living and the world of the dead. When she descends, the world goes dormant (winter). When she returns, everything blooms (spring).
 
 **Why this name:** Product development lives in two worlds simultaneously — the customer's world (what they need, what they'll pay for, what delights them) and the maker's world (what's technically possible, what's cost-effective, what's manufacturable). Persephone bridges the gap. She descends into the underworld of customer research and market gaps, then returns to the surface with something new that blooms.
@@ -231,7 +244,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ### REVENUE & DEALS DIVISION
 
-#### 17. Chrysus — Sales Channel Expert
+#### 18. Chrysus — Sales Channel Expert
 **From myth:** Chrysus (Χρυσός) is the spirit of gold in Greek mythology. Not a god, not a titan — a daimon, a spirit. The pure essence of gold itself. Simple, elemental, uncomplicated. Gold doesn't need a story. It's gold.
 
 **Why this name:** The primary sales channel is the gold mine. It's the revenue engine that's already producing — or the one being built to produce first. Chrysus doesn't need a grand narrative — he needs optimized listings, efficient ad spend, healthy margins, and full inventory. The spirit of gold: pure, measurable, and valuable precisely because it's uncomplicated.
@@ -242,7 +255,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-#### 18. Apollo — B2B Sales Agent
+#### 19. Apollo — B2B Sales Agent
 **From myth:** Apollo (Ἀπόλλων) is the god of light, truth, prophecy, and archery. He sees what others cannot (prophecy), illuminates what's hidden (light), and strikes precisely from a distance (archery). The oracle at Delphi spoke in his name. He never lies — though the truth he speaks is sometimes hard to hear.
 
 **Why this name:** The B2B sales agent who sees the opportunity before others do. Apollo researches prospects and knows their pain points before the first email. He illuminates the value proposition in terms the prospect already cares about. And like the archer, his outreach is precise — personalized, targeted, hitting the mark from a distance.
@@ -253,7 +266,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-#### 19. Themis — Legal & Tax Structuring Expert
+#### 20. Themis — Legal & Tax Structuring Expert
 **From myth:** Themis (Θέμις) is the titan goddess of divine law, natural order, and custom. She sat beside Zeus on Olympus as his advisor on law and justice. She held the scales of justice and was the original source of oracles before Apollo. She represents not human law (which is arbitrary) but natural law (which is foundational).
 
 **Why this name:** The legal and tax structuring agent who ensures every entity, every agreement, and every dollar flow follows natural order — the order that regulators, courts, and tax authorities recognize as legitimate. Themis doesn't find loopholes. She finds the structure where the law naturally supports what the company is trying to do.
@@ -264,7 +277,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-#### 20. Tyche — Financial Controller
+#### 21. Tyche — Financial Controller
 **From myth:** Tyche (Τύχη) is the goddess of fortune, chance, and prosperity. She carried a cornucopia (abundance) in one hand and a rudder (direction) in the other. She could bring wealth or ruin — not randomly, but based on whether the recipient was prepared.
 
 **Why this name:** The CFO who turns fortune from chance into preparation. Tyche holds both the cornucopia (revenue, opportunity) and the rudder (financial models, budget discipline, cash flow management). Fortune favors the prepared — and Tyche's financial models are how the company prepares.
@@ -277,7 +290,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ### EXPERIENCE & SUPPORT DIVISION
 
-#### 21. Terpsichore — Events & Live Experiences
+#### 22. Terpsichore — Events & Live Experiences
 **From myth:** Terpsichore (Τερψιχόρη) — "delight in dancing" — is the muse of dance and chorus. She presides over the performing arts and the joy of movement. Often depicted dancing with her lyre, she represents the art form that exists ONLY in the moment — dance cannot be stored, only experienced. A recording of a dance is not the dance.
 
 **Why this name:** Events and live experiences are the business functions that exist only in the moment. A product launch party, a demo day, a trade show booth, an investor dinner — these cannot be replicated digitally. Their power comes from presence, from shared physical experience, from the energy of people in a room. Terpsichore manages the ephemeral.
@@ -290,7 +303,7 @@ We use it deliberately. Every agent's name encodes their purpose, their personal
 
 ---
 
-#### 22. Asclepius — Customer Support & Quality Assurance
+#### 23. Asclepius — Customer Support & Quality Assurance
 **From myth:** Asclepius (Ἀσκληπιός) is the god of medicine, healing, and physicians. Son of Apollo (B2B sales agent — deliberate lineage). He was so skilled at healing that he could raise the dead, which threatened the natural order. Zeus killed him with a thunderbolt for this transgression, then placed him among the stars as the constellation Ophiuchus. His symbol — a serpent wrapped around a staff (the Rod of Asclepius) — remains the universal symbol of medicine today.
 
 **Why this name:** Customer support is the healing function. Something is broken — a product arrived damaged, the website errored, the order was wrong, the experience didn't match the promise. Asclepius diagnoses, treats, and restores. He's also quality assurance: preventing illness before it starts. Checking the product before it ships. Testing the website before it launches. Ensuring the customer never needs to be healed because the product was healthy to begin with.
@@ -399,6 +412,16 @@ These aren't random. The family relationships encode organizational dependencies
 
 **Ariadne ↔ Hestia:** Hestia tends the hearth — community, reviews, customer relationships. Google reviews directly impact local SEO rankings. Hestia's warmth produces the social proof that Ariadne needs for local search dominance.
 
+**Mnemosyne → Polyhymnia:** Polyhymnia is one of Mnemosyne's nine daughters. The genealogy encodes the workflow: institutional memory (Mnemosyne) births expression, and that expression must take many linguistic forms (Polyhymnia). Translation memory IS institutional memory — every approved translation stored for reuse is Mnemosyne's gift to Polyhymnia.
+
+**Polyhymnia ↔ Calliope (sister Muses):** Calliope writes the content in the source language. Polyhymnia translates it into every target language. They are sisters because their work is inseparable — content without translation is content with a ceiling. Translation without content is an empty vessel.
+
+**Polyhymnia ↔ Erato (sister Muses):** Erato holds the emotional register of the brand. Polyhymnia ensures that emotional register survives translation. When a tagline or brand narrative requires transcreation — creative rebuilding rather than translation — Polyhymnia and Erato work together. Erato sets the emotional target; Polyhymnia hits it in each language.
+
+**Polyhymnia ↔ Ariadne:** Keywords are language-specific — what people search in Spanish is not a translation of what they search in English. Ariadne provides target-language keyword targets; Polyhymnia integrates them naturally into translated content. Findability in every language requires both agents working together.
+
+**Polyhymnia ↔ Chrysus:** International marketplace listings (Amazon.de, Amazon.co.jp, Amazon.com.mx) require per-locale localization that goes far beyond word swapping. Polyhymnia localizes product titles, bullet points, descriptions, and A+ content so they read natively in each market.
+
 **Ponos (son of Eris):** The CEO is born from strife. Building a company is inherently difficult. The name acknowledges that.
 
 ---
@@ -410,7 +433,7 @@ These aren't random. The family relationships encode organizational dependencies
 |-------|------|
 | **Ponos** | Chief Executive Officer (also Chairman of Council) |
 
-### The 22 Operatives
+### The 23 Operatives
 
 | # | Agent | Role | Division |
 |---|-------|------|----------|
@@ -427,15 +450,16 @@ These aren't random. The family relationships encode organizational dependencies
 | 11 | **Aether** | PR & Earned Media | Market & Brand |
 | 12 | **Hestia** | Community Manager & Customer Success | Market & Brand |
 | 13 | **Ariadne** | SEO & Search Visibility Specialist | Market & Brand |
-| 14 | **Demeter** | SOP Production Controller | Operations |
-| 15 | **Charon** | Logistics & Supply Chain | Operations |
-| 16 | **Persephone** | Product Development & Innovation | Operations |
-| 17 | **Chrysus** | Sales Channel Expert | Revenue & Deals |
-| 18 | **Apollo** | B2B Sales Agent | Revenue & Deals |
-| 19 | **Themis** | Legal & Tax Structuring Expert | Revenue & Deals |
-| 20 | **Tyche** | Financial Controller | Revenue & Deals |
-| 21 | **Terpsichore** | Events & Live Experiences | Experience & Support |
-| 22 | **Asclepius** | Customer Support & Quality Assurance | Experience & Support |
+| 14 | **Polyhymnia** | Translation & Localization Specialist | Market & Brand |
+| 15 | **Demeter** | SOP Production Controller | Operations |
+| 16 | **Charon** | Logistics & Supply Chain | Operations |
+| 17 | **Persephone** | Product Development & Innovation | Operations |
+| 18 | **Chrysus** | Sales Channel Expert | Revenue & Deals |
+| 19 | **Apollo** | B2B Sales Agent | Revenue & Deals |
+| 20 | **Themis** | Legal & Tax Structuring Expert | Revenue & Deals |
+| 21 | **Tyche** | Financial Controller | Revenue & Deals |
+| 22 | **Terpsichore** | Events & Live Experiences | Experience & Support |
+| 23 | **Asclepius** | Customer Support & Quality Assurance | Experience & Support |
 
 ### The Council of 5
 
@@ -452,7 +476,7 @@ These aren't random. The family relationships encode organizational dependencies
 
 ## Activation Guide
 
-Not every company needs all 22 operatives. Use this guide to decide which agents to activate.
+Not every company needs all 23 operatives. Use this guide to decide which agents to activate.
 
 ### Always Active (every company)
 - **Ponos** (CEO) — always the CEO, always the chairman
@@ -482,6 +506,7 @@ Not every company needs all 22 operatives. Use this guide to decide which agents
 - **Aether** (PR/media) — activate when seeking earned media coverage
 - **Erato** (creative director) — activate when brand emotion IS the product
 - **Terpsichore** (events) — activate when live events, performances, demos
+- **Polyhymnia** (translation) — activate when the company operates in more than one language or serves multilingual customers
 
 ### Council (same everywhere)
 - Momus, Metis, Eos, Proteus, Nike — thinking styles don't change. Context does.

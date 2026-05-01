@@ -13,7 +13,7 @@ The Council of 5 is a strategic decision-making tool. When the company faces a d
 
 Five independent advisors analyze the question from fundamentally different angles. They don't know what the others said. Then they peer-review each other's responses anonymously. Then Ponos, as chairman, synthesizes everything into a verdict with a clear recommendation and one concrete next step.
 
-The advisors are **not** members of the operational team. They are separate agents — no overlap with the 22 operatives — specifically to avoid the bias of existing context, sunk costs, and institutional loyalty coloring the analysis.
+The advisors are **not** members of the operational team. They are separate agents — no overlap with the 23 operatives — specifically to avoid the bias of existing context, sunk costs, and institutional loyalty coloring the analysis.
 
 ---
 
